@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+
+ <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/Game"
+    android:background="@drawable/background">
+<AbsoluteLayout
+    android:layout_height="wrap_content"
+    android:id="@+id/GameField"
+    android:layout_width="fill_parent">
+ <Button
+     android:id="@+id/Button00"
+     android:layout_height="100px"
+     android:layout_width="100px"
+     android:layout_x="5px"
+     android:layout_y="5px"
+     android:text="0"
+     android:textSize="48px"
+     android:background="#000">
+ </Button>
+ <Button
+     android:id="@+id/Button01"
+     android:layout_height="100px"
+     android:layout_width="100px"
+     android:layout_x="110px"
+     android:layout_y="5px"
+     android:text="1"
+     android:textSize="48px">
+ </Button>
+<Button
+    android:id="@+id/Button02"
+    android:layout_height="100px"
+    android:layout_width="100px"
+    android:layout_x="215px"
+    android:layout_y="5px"
+    android:text="2"
+    android:textSize="48px">
+</Button>
+<Button
+    android:id="@+id/Button03"
+    android:layout_height="100px"
+    android:layout_width="100px"
+    android:layout_x="5px"
+    android:layout_y="110px"
+    android:text="3"
+    android:textSize="48px">
+</Button>
+<Button
+    android:id="@+id/Button04"
+    android:layout_height="100px"
+    android:layout_width="100px"
+    android:layout_x="110px"
+    android:layout_y="110px"
+    android:text="4"
+    android:textSize="48px">
+</Button>
+<Button
+    android:id="@+id/Button05"
+    android:layout_height="100px"
+    android:layout_width="100px"
+    android:layout_x="215px"
+    android:layout_y="110px"
+    android:text="5"
+    android:textSize="48px">
+</Button>
+<Button
+    android:id="@+id/Button06"
+    android:layout_height="100px"
+    android:layout_width="100px"
+    android:layout_x="5px"
+    android:layout_y="215px"
+    android:text="6"
+    android:textSize="48px">
+</Button>
+<Button
+    android:id="@+id/Button07"
+    android:layout_height="100px"
+    android:layout_width="100px"
+    android:layout_x="110px"
+    android:layout_y="215px"
+    android:text="7"
+    android:textSize="48px">
+</Button>
+<Button
+    android:id="@+id/Button08"
+    android:layout_height="100px"
+    android:layout_width="100px"
+    android:layout_x="215px"
+    android:layout_y="215px"
+    android:text="8"
+    android:textSize="48px">
+</Button>
+</AbsoluteLayout>
+ <TextView
+     android:layout_below="@+id/GameField"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:id="@+id/MoveText"
+     android:textSize="28px"
+     android:text="@string/moves_title">
+ </TextView>
+ <TextView
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:layout_below="@+id/MoveText"
+     android:id="@+id/FeedbackTitleText"
+     android:text="@string/feedback_title"
+     android:textSize="28px">
+ </TextView>
+ <TextView
+     android:layout_below="@+id/GameField"
+     android:layout_toRightOf="@+id/MoveText"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:id="@+id/MoveCounter"
+     android:text="0"
+     android:textSize="28px"
+     android:layout_marginLeft="5px"
+     android:layout_alignBaseline="@+id/MoveText">
+ </TextView>
+ <TextView
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:textSize="28px"
+     android:id="@+id/FeedbackText"
+     android:layout_alignRight="@+id/GameField"
+     android:layout_below="@+id/FeedbackTitleText"
+     android:text="@string/game_feedback_text">
+ </TextView>
+</RelativeLayout>
