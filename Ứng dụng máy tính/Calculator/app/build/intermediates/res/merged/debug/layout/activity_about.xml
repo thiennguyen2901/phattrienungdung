@@ -1,0 +1,71 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+	    <LinearLayout
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content">
+			<TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center"
+		        android:textSize="25sp"
+		        android:text="Calculator - About"/>
+	    </LinearLayout>
+    <LinearLayout
+	android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+    </LinearLayout>
+    
+    
+	    <LinearLayout
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content">
+		    <TextView 
+		        android:gravity="center"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="15sp"
+		        android:text="GVHD: Thầy NGUYỄN MINH HẢI"/>
+		 </LinearLayout>
+		 <TextView 
+	        android:gravity="center"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="15sp"
+	        android:text="SINH VIÊN:"/>
+
+	    <TextView 
+	        android:gravity="center"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="15sp"
+	        android:text="Lê Hữu Thắng-14028621"/>
+	    <TextView
+	        android:gravity="center"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="15sp"
+	        android:text="Đỗ Ngọc Thắng-14020031"/>
+		<TextView
+			android:gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="15sp"
+			android:text="Nguyễn Hoàng Thiện-14038661"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center|bottom"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back" />
+    </LinearLayout>
+
+</LinearLayout>
