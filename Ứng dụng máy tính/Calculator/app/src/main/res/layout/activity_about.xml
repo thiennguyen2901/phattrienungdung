@@ -1,4 +1,4 @@
-<LinearLayout
+﻿<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" 
     android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:textSize="15sp"
-			android:text="Nguyễn Hoàng Thiện-14038661"/>
+			android:text="Nguyễn Hoàng Thiện-14018661"/>
 
     <LinearLayout
         android:layout_width="match_parent"
