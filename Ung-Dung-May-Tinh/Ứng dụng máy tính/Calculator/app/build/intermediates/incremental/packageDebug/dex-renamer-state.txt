@@ -1,0 +1,7 @@
+#Sun Oct 23 20:53:53 ICT 2016
+base.0=D\:\\Android\\Calculator1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_10e1566c1d0cfe6c6c0ece046fcaf562bdb9b39b
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\Android\\Calculator1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_ec25f47f31855aa6e5c1d759ee5e4443c95c42e3\\classes.dex
+base.1=D\:\\Android\\Calculator1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_ec25f47f31855aa6e5c1d759ee5e4443c95c42e3
+file.0=D\:\\Android\\Calculator1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_10e1566c1d0cfe6c6c0ece046fcaf562bdb9b39b\\classes.dex
