@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Android\\Calculator1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hover.xml",
+        "source": "D:\\Android\\Calculator1\\app\\src\\main\\res\\drawable-hdpi\\hover.xml"
+    },
+    {
+        "merged": "D:\\Android\\Calculator1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hover_bang.xml",
+        "source": "D:\\Android\\Calculator1\\app\\src\\main\\res\\drawable-hdpi\\hover_bang.xml"
+    },
+    {
+        "merged": "D:\\Android\\Calculator1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hover_clear.xml",
+        "source": "D:\\Android\\Calculator1\\app\\src\\main\\res\\drawable-hdpi\\hover_clear.xml"
+    }
+]
